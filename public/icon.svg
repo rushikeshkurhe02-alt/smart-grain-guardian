@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="108" fill="#0E8A96"/>
+  <circle cx="256" cy="256" r="180" fill="#0B6B76" opacity="0.4"/>
+  <!-- Guardian Shield Outline -->
+  <path d="M256 96L144 146V256C144 336 192 400 256 424C320 400 368 336 368 256V146L256 96Z" 
+        fill="#074B53" stroke="#F8FAFC" stroke-width="12" stroke-linejoin="round"/>
+  <!-- Golden Grain Stalk Inside Shield -->
+  <path d="M256 370V170" stroke="#F2B134" stroke-width="10" stroke-linecap="round"/>
+  <!-- Grain Kernels Left -->
+  <path d="M256 310C230 300 216 276 220 256C236 260 252 284 256 310Z" fill="#F2B134"/>
+  <path d="M256 250C230 240 216 216 220 196C236 200 252 224 256 250Z" fill="#F2B134"/>
+  <!-- Grain Kernels Right -->
+  <path d="M256 310C282 300 296 276 292 256C276 260 260 284 256 310Z" fill="#F2B134"/>
+  <path d="M256 250C282 240 296 216 292 196C276 200 260 224 256 250Z" fill="#F2B134"/>
+  <!-- Top Kernel -->
+  <path d="M256 160C246 142 256 126 256 126C256 126 266 142 256 160Z" fill="#F2B134"/>
+  <!-- Acoustic Wave (Ear) Left -->
+  <path d="M188 230C180 245 180 265 188 280" stroke="#5BA85A" stroke-width="8" stroke-linecap="round"/>
+  <!-- Gas Wave (Nose) Right -->
+  <path d="M324 230C332 245 332 265 324 280" stroke="#E8622C" stroke-width="8" stroke-linecap="round"/>
+  <!-- Central Sensor Core Dot -->
+  <circle cx="256" cy="225" r="9" fill="#FFFFFF"/>
+</svg>

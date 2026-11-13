@@ -1,0 +1,6 @@
+{
+  "name": "Smart Grain Guardian",
+  "description": "IoT post-harvest spoilage monitoring dashboard with acoustic and gas signal fusion, statistical forecasting, Gemini advisory, and ESP32 connectivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

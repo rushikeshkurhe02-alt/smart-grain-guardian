@@ -1,0 +1,30 @@
+{
+  "rules": {
+    "devices": {
+      ".read": true,
+      "$deviceId": {
+        ".write": "auth != null || newData.child('secret').val() === 'DEMO_DEVICE_KEY'"
+      }
+    },
+    "readings": {
+      ".read": true,
+      "$deviceId": {
+        ".indexOn": ["ts"],
+        ".write": true
+      }
+    },
+    "alerts": {
+      ".read": true,
+      "$deviceId": {
+        ".indexOn": ["ts", "acknowledged"],
+        ".write": "auth != null"
+      }
+    },
+    "settings": {
+      ".read": true,
+      "$deviceId": {
+        ".write": "auth != null"
+      }
+    }
+  }
+}
